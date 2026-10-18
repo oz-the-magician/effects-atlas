@@ -15,6 +15,13 @@ A hands-on catalogue of 37 motion and interaction effects for web covers and por
 
 Open a tab, move the mouse, scroll or drag — most effects react to input. You can link straight to an effect with its id, e.g. `#ci` for circular text.
 
+## How to use
+
+1. Open the atlas and pick an effect tab.
+2. Press **Copy prompt** under the description.
+3. Paste it into Claude (or any capable model) and replace the placeholders in square brackets — `[your text]`, `[your image]`, `[palette]` and so on — with your own content.
+4. Every prompt describes the look, the interaction, the key values used in the preview and the technique, and asks for a single self-contained HTML file that respects reduced motion and works on mobile.
+
 ## How it's built
 
 - One self-contained `index.html`: images are embedded, and GSAP, Lenis and three.js are inlined, so nothing loads from a CDN except Google Fonts.
@@ -37,5 +44,7 @@ Open `index.html` in a browser. No build step.
 - Изображения: жидкая картинка, частицы, пиксельный reveal, halftone, перетекание, линза, слоевой параллакс, шлейф картинок, голо-карточки.
 - Раскладка и навигация: 3D-карточки, карусель по кругу, скролл-история, курсор и магниты, переход в кейс, лента, лента на меше.
 - Фоны и 3D: градиентный меш, точки-волна, точки со шлейфом, шар над кубами, часы в разборе (exploded view).
+
+**Как пользоваться:** откройте нужный эффект, нажмите **Copy prompt** под описанием, вставьте промпт в Claude или другую модель и замените плейсхолдеры в квадратных скобках (`[your text]`, `[your image]`, `[palette]` и т. д.) на свой контент. В каждом промпте описаны внешний вид, взаимодействие, ключевые параметры из превью и техника, а результат — один самодостаточный HTML-файл, который учитывает reduced motion и работает на телефоне.
 
 Всё в одном файле `index.html`: картинки и библиотеки (GSAP, Lenis, three.js) встроены внутрь, сборка не нужна — достаточно открыть файл в браузере.
